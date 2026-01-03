@@ -109,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7      &kp N8     &kp N9         &kp N0
-        &trans            &trans        &trans        &kp K_MUTE    &kp C_VOL_UP    &kp K_PREV    &kp K_NEXT  &kp MINUS  &kp EQUAL      &kp SLASH
-&trans  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &trans        &kp C_VOL_DN    &trans        &trans      &kp RALT   &kp RIGHT_WIN  &kp RIGHT_CONTROL  &kp BSLH
-                                        &gif          &trans        &trans          &mo 3         &trans      &trans
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp N5    &kp NUMBER_6   &kp N7         &kp N8     &kp N9     &kp N0
+        &trans        &trans        &trans        &trans           &trans    &kp SEMI       &kp SQT        &kp MINUS  &kp EQUAL  &kp SLASH
+&trans  &trans        &trans        &trans        &trans           &trans    &trans         &trans         &trans     &trans     &trans     &kp BSLH
+                                    &trans        &lt 3 BACKSPACE  &trans    &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RCTRL
             >;
         };
 
@@ -133,10 +133,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &kp K_COFFEE  &kp UP        &kp PAGE_UP  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS
-        &trans     &kp LEFT      &kp DOWN      &kp RIGHT    &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5        &kp KP_N6  &kp KP_MINUS
-&trans  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp PG_DN    &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp KP_MULTIPLY  &trans
-                                 &trans        &trans       &trans      &trans    &trans     &kp KP_NUMBER_0
+        &kp ESC  &kp K_COFFEE  &kp UP            &kp PAGE_UP   &kp LBRC        &kp RBRC     &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS
+        &trans   &kp LEFT      &kp DOWN          &kp RIGHT     &kp LBKT        &kp RBKT     &kp KP_N4  &kp KP_N5        &kp KP_N6  &kp KP_MINUS
+&trans  &trans   &trans        &trans            &kp PG_DN     &kp LPAR        &kp RPAR     &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp KP_MULTIPLY  &trans
+                               &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &lt 3 SPACE  &trans     &kp KP_NUMBER_0
             >;
         };
 
