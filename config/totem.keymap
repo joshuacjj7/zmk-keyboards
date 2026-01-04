@@ -135,7 +135,7 @@
             bindings = <
         &kp ESC  &kp K_COFFEE  &kp UP            &kp PAGE_UP   &kp LBRC        &kp RBRC     &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS
         &trans   &kp LEFT      &kp DOWN          &kp RIGHT     &kp LBKT        &kp RBKT     &kp KP_N4  &kp KP_N5        &kp KP_N6  &kp KP_MINUS
-&trans  &trans   &trans        &trans            &kp PG_DN     &kp LPAR        &kp RPAR     &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp KP_MULTIPLY  &trans
+&trans  &trans   &trans        &trans            &kp PG_DN     &kp LPAR        &kp RPAR     &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp KP_MULTIPLY  &kp ENTER
                                &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &lt 3 SPACE  &trans     &kp KP_NUMBER_0
             >;
         };
